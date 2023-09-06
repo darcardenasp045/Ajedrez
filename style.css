@@ -29,6 +29,8 @@
     fill: aliceblue;
     width: 75px;
     height: 70px;
-    object-fit: fill;
-    z-index: 2;
+    object-fit: contain;
+    
+    mix-blend-mode: multiply;
+    z-index: 1;
 }
