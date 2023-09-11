@@ -1,5 +1,5 @@
 .container{
-    position: fixed;
+    position:absolute;
     width: 1024px;
     display: grid;
     grid-template-columns: repeat(8, 90px);
@@ -9,13 +9,15 @@
 
 .white{
     background-color: aliceblue;
+    
 }
+
 .black{
     background-color:#1f3549 ;   
- 
+
 }
+
 .box{
-   
     width: 85px;
     height: 85px;
     border: solid 1px black;
@@ -23,9 +25,9 @@
     text-align: center;
     justify-content: center;
     align-items: center;
-    
 
 }
+
 .box img{
     fill: aliceblue;
     width: 75px;
@@ -33,5 +35,6 @@
     object-fit: contain;
     mix-blend-mode: multiply;
     z-index: 1;
-    position: fixed;
+    position: absolute;
+
 }
